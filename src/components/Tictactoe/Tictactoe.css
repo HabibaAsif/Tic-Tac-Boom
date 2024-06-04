@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');* {
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space mono', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.title {
+    color: #EEEEEE;
+    font-size: 40px;
+    margin-bottom: 30px; 
+}
+
+.title span {
+    color: #A7E6FF;
+    padding-left: 15px;
+}
+
+.reset {
+    width: 140px; 
+    height: 70px; 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #1f3540;
+    font-size: 20px; 
+    color: #A7E6FF;
+}
+
+.boxes {
+    display: flex;
+    height: 120px;
+    width: 120px; 
+    background: #31363F;
+    border: 4px solid #222831;
+    border-radius: 12px;
+    cursor: pointer;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.boxes img {
+    max-width: 90%; 
+    max-height: 90%; 
+    background: none;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(3, 120px);
+    margin-bottom: 30px; 
+}
